@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //This is to create array with the variable i and assign from 1 to 10
+      var i = [1,2,3,4,5,6,7,8,9,10];
+      //his is to create array with the variable fruit and assign string with multiple fruit name 
+      var fruits = ["Apple","Banana","Cherry","Grape","Kiwi",
+                    "Lemon","Mango","Orange","Pear","Strawberry"];
+      //To execute the i array with for loop 1 by 1
+      i.forEach(function(fruit){
+        //To check the i array whether is modulable by 2 equal 1
+        if(fruit % 2 === 1){
+          //If data in i arrray after module by 2 is equal i then display the data
+          document.write(fruit);
+        }
+      });
+    </script>
+  </body>
+</html>
